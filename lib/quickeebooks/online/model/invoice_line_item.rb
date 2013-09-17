@@ -7,6 +7,7 @@ module Quickeebooks
         xml_name 'Line'
         xml_accessor :id, :from => 'Id', :as => Quickeebooks::Online::Model::Id
         xml_accessor :desc, :from => 'Desc'
+        xml_accessor :name, :from => 'Name'
         xml_accessor :amount, :from => 'Amount', :as => Float
         xml_accessor :class_id, :from => 'ClassId', :as => Quickeebooks::Online::Model::Id
         xml_accessor :taxable, :from => 'Taxable'
